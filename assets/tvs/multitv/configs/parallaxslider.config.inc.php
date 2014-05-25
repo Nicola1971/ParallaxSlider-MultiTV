@@ -27,6 +27,10 @@ $settings['fields'] = array(
     'link' => array(
         'caption' => 'Link',
         'type' => 'text'
+    ),
+    'readmoretext' => array(
+        'caption' => 'read more text',
+        'type' => 'text'
     )
 );
 $settings['templates'] = array(
@@ -35,7 +39,7 @@ $settings['templates'] = array(
 					<span class="da-arrows-next"></span>
 				</nav></div>',
     'rowTpl' => '<div class="da-slide [+slidedirection+]">
-    <h2>[+title+]</h2><p>[+legend+]</p><a href="[+link+]" class="da-link">Read more</a>
+    <h2>[+title+]</h2><p>[+legend+]</p><a href="[+link+]" class="da-link">[+readmoretext:ne=``:then=`[+readmoretext+]`:else=`read more`+]</a>
 					<div class="da-img"><img src="[+image+]" alt="[+title+]" /></div>
 				</div>'
 );
