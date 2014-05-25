@@ -21,7 +21,11 @@
 			   (function($) {
 
 				var $slider	= $('#da-slider');
-
+    ({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+    // time between transitions
 				// initialize the slider
 				$slider.cslider();
 
