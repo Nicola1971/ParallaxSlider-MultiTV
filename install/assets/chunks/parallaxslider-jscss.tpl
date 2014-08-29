@@ -1,8 +1,9 @@
 /**
- * parallaxslider-jscss
+ * parallaxslider-js
  *
- * include js and css for parallaxslider multitv
+ * include js for parallaxslider multitv
  *
+ * @author      tattoocms.it
  * @category	chunk
  * @version 	2.0
  * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
@@ -12,7 +13,6 @@
  */
 
 
-<link rel="stylesheet" type="text/css" href="/assets/templates/common/js/parallaxslider/css/style2.css" />
 <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
 <script type="text/javascript" src="/assets/templates/common/js/parallaxslider/js/modernizr.custom.28468.js"></script>
 <script type="text/javascript" src="/assets/templates/common/js/parallaxslider/js/jquery.cslider.js"></script>

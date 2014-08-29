@@ -3,6 +3,7 @@
  *
  * multiTV ParallaxSlider manager v.2
  *
+ * @author      tattoocms.it 
  * @category	tv
  * @internal	@modx_category MultiTV add-ons
  * @internal    @caption parallaxslider
